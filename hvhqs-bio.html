@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17151d">
+<title>HvHqs | bio</title>
+<style>
+:root{--accent:#b45cff;--panel:rgba(20,20,24,.78);--muted:#a6a2ad}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:#f7f4fb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(ellipse at 50% 12%,#513064 0,transparent 35%),radial-gradient(ellipse at 5% 55%,#34313a 0,transparent 38%),linear-gradient(145deg,#17151c,#29262d 55%,#111116);background-attachment:fixed}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:inherit;filter:blur(24px);transform:scale(1.08)}
+main{width:min(100% - 32px,650px);margin:0 auto;padding:54px 0 110px}
+.hero{text-align:center;padding:12px 0 54px}
+.avatar{width:142px;height:142px;margin:0 auto 28px;border-radius:50%;padding:6px;background:linear-gradient(140deg,#d28aff,#7938d4);box-shadow:0 0 0 5px #17151d,0 0 25px #9b4de9;animation:pulse 3s ease-in-out infinite}
+.avatar-inner{height:100%;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#37313f,#17151c);border:3px solid #6d6478;font-size:48px;font-weight:800;color:#e4c4ff}
+@keyframes pulse{50%{box-shadow:0 0 0 5px #17151d,0 0 34px #b45cff}}
+h1{font-size:clamp(34px,9vw,48px);letter-spacing:-1.5px;margin:0;background:linear-gradient(90deg,#f3d9ff,#b86bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.subtitle{margin:16px 0 0;color:#aaa5b1;font-size:18px}
+.dots{display:flex;justify-content:center;gap:12px;margin:0 0 38px}.dots i{width:10px;height:10px;border-radius:50%;background:#625d68}.dots i:first-child{background:var(--accent);box-shadow:0 0 14px var(--accent)}
+section{margin:0 0 42px;scroll-margin-top:24px}
+h2{font-size:18px;letter-spacing:3px;color:var(--accent);margin:0 0 22px}
+.link{display:flex;align-items:center;gap:18px;min-height:92px;padding:20px 26px;margin:0 0 18px;border:1px solid rgba(255,255,255,.07);border-radius:28px;background:var(--panel);box-shadow:0 14px 35px #0005;color:#fff;text-decoration:none;font-size:20px;font-weight:650;backdrop-filter:blur(18px);transition:transform .2s,border-color .2s}
+.link:hover{transform:translateY(-2px);border-color:#b45cff88}.symbol{width:32px;text-align:center;color:var(--accent);font-size:27px}
+.card{padding:25px 24px;border:1px solid #ffffff14;border-radius:28px;background:linear-gradient(145deg,#202026dc,#101014e8);box-shadow:0 16px 40px #0005;margin-bottom:18px;backdrop-filter:blur(18px)}
+.card h3{margin:0 0 12px;font-size:22px}.card p{margin:0;color:#aaa6b0;line-height:1.75;font-size:16px}
+nav{position:fixed;z-index:5;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:3px;padding:7px;border:1px solid #ffffff18;border-radius:30px;background:#17151de8;box-shadow:0 12px 35px #0009;backdrop-filter:blur(20px);max-width:calc(100% - 24px)}
+nav a{color:#e8e4ed;text-decoration:none;padding:12px 14px;border-radius:24px;font-size:14px;font-weight:650;white-space:nowrap}nav a:hover,nav a:focus{background:#fff;color:#17151d}
+footer{text-align:center;color:#817b88;font-size:12px;margin-top:55px}
+@media(max-width:390px){nav a{padding:11px 10px;font-size:12px}.link{min-height:80px}.avatar{width:128px;height:128px}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero" id="about">
+  <div class="avatar"><div class="avatar-inner">H</div></div>
+  <div class="dots"><i></i><i></i></div>
+  <h1>HvHqs</h1>
+  <p class="subtitle">ddoser &amp; coder</p>
+</header>
+
+<section id="links">
+  <h2>LINKS</h2>
+  <a class="link" href="https://t.me/NixWareez" target="_blank" rel="noopener"><span class="symbol">➤</span>Telegram</a>
+  <a class="link" href="https://github.com/hvhqws" target="_blank" rel="noopener"><span class="symbol">⌘</span>GitHub</a>
+</section>
+
+<section id="modules">
+  <h2>MODULES</h2>
+  <article class="card"><h3>⚡ My module</h3><p>Мои разработки и проекты. Раздел можно заполнить описаниями и ссылками на отдельные работы.</p></article>
+</section>
+
+<section id="projects">
+  <h2>PROJECTS</h2>
+  <article class="card"><h3>✦ My projects</h3><p>Мои проекты, эксперименты и открытые репозитории.</p></article>
+</section>
+
+<section id="aboutme">
+  <h2>ABOUT</h2>
+  <article class="card"><h3>HvHqs</h3><p>ddoser &amp; coder</p></article>
+</section>
+<footer>© 2026 HvHqs · personal page</footer>
+</main>
+<nav aria-label="Навигация">
+  <a href="#links">Links</a><a href="#modules">Modules</a><a href="#projects">Projects</a><a href="#aboutme">About</a>
+</nav>
+</body>
+</html>
